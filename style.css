@@ -1,10 +1,7 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 body {
     background-image: url("textures/bg.jpg");
     background-size: 100vw 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #main-wrapper {
@@ -17,7 +14,7 @@ body {
     padding-right: 3%;
     padding-bottom: 20px;
     float: left;
-    background-color: black;
+    background-image: linear-gradient(rgb(0, 0, 70), black);
     color: dodgerblue;
     width: 65%;
     height: fit-content;
@@ -30,14 +27,39 @@ body {
     padding-right: 1%;
     font-weight: bold;
     float: left;
-    background-color: rgb(0, 17, 36);
+    background-image: linear-gradient(rgb(0, 0, 70), black);
     color: dodgerblue;
     width: 25%;
     height: fit-content;
     border-style: inset;
     border-color:  dodgerblue;
+    padding-bottom: 2%;
 }
 
-img {
+.main-invite {
     max-width: 30%;
+}
+
+.leaderboard {
+    font-weight: lighter;
+}
+
+#top.leaderboard, th {
+    background-image: linear-gradient(blue, black);
+}
+
+.sidebar-invite {
+    max-width: 90%;
+    margin: auto;
+}
+
+table, th, td {
+    margin: auto;
+    border: 1px solid;
+    border-collapse: collapse;
+    width: fit-content;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(0, 36, 71);
 }
