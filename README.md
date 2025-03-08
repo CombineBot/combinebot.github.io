@@ -1,3 +1,9 @@
-# CombineBot's future and unfinished website!
+# CombineBot's website!
 
-Here is CombineBot's website that I am working on. I plan for online configuration, leaderboard, and more. You might notice I reference some unfinished features in the text... you'll just have to wait for those!
+Here is the website for [CombineBot](https://github.com/CombineSoldier14/CombineBot), my discord bot!
+
+## Why does the site look like it was made in 2006?
+Because I unironically like that style. I still wouldn't call this *good* looking, there is definetely a lot to change visually but it captures the look enough
+
+## What about the leaderboard?
+I decided that will wait until the WebUI, which will allow you to view that, your personal stats, and more. Needless to say there is a lot to do.
