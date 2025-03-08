@@ -4,11 +4,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#main-wrapper {
-    padding-left: 150px;
-    padding-right: 150px;
-}
-
 .main-text {
     padding-left: 3%;
     padding-right: 3%;
@@ -16,18 +11,14 @@ body {
     float: left;
     background-image: linear-gradient(rgb(0, 0, 70), black);
     color: dodgerblue;
-    width: 65%;
     height: fit-content;
     border-style: inset; 
     border-color:  dodgerblue;
+    opacity: 0.9;
     word-wrap: break-word; /* we don't want to overflow the div! */
 }
 
 .sidebar {
-    padding-left: 1%;
-    padding-right: 1.7%;
-    font-weight: bold;
-    float: left;
     background-image: linear-gradient(rgb(0, 0, 70), black);
     color: dodgerblue;
     width: 25%;
@@ -41,32 +32,8 @@ body {
     max-width: 30%;
 }
 
-.leaderboard {
-    font-weight: lighter;
-}
-
-#top.leaderboard, th {
-    background-image: linear-gradient(blue, black);
-}
-
-.sidebar-invite {
-    max-width: 100%;
-    
-}
-
 .copyright {
     text-align: center;
-}
-
-table, th, td {
-    margin: auto;
-    border: 1px solid;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-tr:nth-child(even) {
-    background-color: rgb(0, 36, 71);
 }
 
 /* link color fix */
@@ -74,14 +41,14 @@ a, a:visited {
     color: dodgerblue;
 }
 
-.maininvite {
-    max-width: 30%;
+#cmb-invite {
+    width: 30%;
+    padding-left: 35%;
 }
 
-#sidebar {
-    list-style-type: none;
-    text-indent: 0;
-    margin: 0;
+#create-embed, #random-reddit, #userinfo {
+    width: 30%;
+    padding-left: 3%;
 }
 
 .header-img {
@@ -90,12 +57,4 @@ a, a:visited {
     margin-right: auto;
     max-width: 100%;
     max-height: 100%;
-}
-
-.droidforums {
-    width: 100%;
-}
-
-.cmbteam {
-    width: 100%;
 }
