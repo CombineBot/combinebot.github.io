@@ -14,7 +14,7 @@ body {
     height: fit-content;
     border-style: inset; 
     border-color:  dodgerblue;
-    opacity: 0.9;
+    opacity: 0.8;
     word-wrap: break-word; /* we don't want to overflow the div! */
 }
 
