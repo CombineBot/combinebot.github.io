@@ -7,3 +7,5 @@ Because I unironically like that style. I still wouldn't call this *good* lookin
 
 ## What about the leaderboard?
 I decided that will wait until the WebUI, which will allow you to view that, your personal stats, and more. Needless to say there is a lot to do.
+
+Theme used on the command GIFs is [SkeuoCord](https://github.com/Marda33/SkeuoCord/tree/master)
